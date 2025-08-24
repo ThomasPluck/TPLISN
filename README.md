@@ -124,24 +124,12 @@ The experimental validation demonstrates:
 3. **Parameter Sensitivity**: Performance varies significantly across different τ, α, and η values
 4. **Robustness**: Framework maintains reasonable performance across multiple operating regimes
 
-## Requirements
-
-```python
-numpy
-matplotlib
-seaborn
-pandas
-tqdm
-multiprocessing
-pickle
-```
-
 ## Installation
 
 ```bash
 git clone https://github.com/ThomasPluck/TPLISN.git
 cd TPLISN
-pip install -r requirements.txt  # You may need to create this
+pip install -r requirements.txt
 ```
 
 ## Technical Details
